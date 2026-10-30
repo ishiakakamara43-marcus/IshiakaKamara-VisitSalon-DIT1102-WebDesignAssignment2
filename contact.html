@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Visit Salone</title>
+  <meta name="description" content="Visit Salone: discover the destinations, culture and nature of Sierra Leone.">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Visit Salone home"><svg viewBox="0 0 46 30"
+     width="46"
+     height="30"
+     xmlns="http://www.w3.org/2000/svg"
+     aria-hidden="true">
+    <!-- Mountain outline -->
+    <polyline
+        points="1,26 12,5 21,19 30,4 45,26"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+    />
+
+    <!-- Missing bottom line -->
+    <line
+        x1="1"
+        y1="28"
+        x2="45"
+        y2="28"
+        stroke="#ffffff"
+        stroke-width="2"
+        stroke-linecap="round"
+    />
+</svg><span>Visit Salone</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation 
+    menu"><span></span><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-head">
+  <div class="container">
+    <h1>Get in Touch</h1>
+    <p>We&rsquo;d love to hear from you. Send us a message or find us on social media.</p>
+  </div>
+</section>
+
+<section class="container contact-grid" aria-label="Contact">
+  <div class="contact-card">
+    <h2>Contact Information</h2>
+    <div class="contact-item"><h3>Office</h3><p>Freetown, Sierra Leone.</p></div>
+    <div class="contact-item"><h3>Phone</h3><a href="tel:+23275080744">+23275080744</a></div>
+    <div class="contact-item"><h3>Email</h3><a href="mailto:elitemarcus2003@gmail.com">elitemarcus2003@gmail.com</a></div>
+    <div class="contact-item">
+      <h3>Follow Us</h3>
+      <ul class="social-list">
+        <!-- SOCIAL LINKS: replace each PASTE_ URL with your real profile address -->
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"><span class="social-icon fb" aria-hidden="true">f</span>Facebook</a></li>
+        <li><a href="https://x.com/" target="_blank" rel="noopener"><span class="social-icon x" aria-hidden="true">X</span>X</a></li>
+        <li><a href="mailto:elitemarcus2003@gmail.com"><span class="social-icon mail"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z M3 6l9 7 9-7" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/></svg></span>Email</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="contact-card">
+    <h2>Send a Message</h2>
+    <form id="contact-form" novalidate>
+      <div class="form-field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name" aria-describedby="name-error" required>
+        <p class="field-error" id="name-error"></p>
+      </div>
+      <div class="form-field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" aria-describedby="email-error" required>
+        <p class="field-error" id="email-error"></p>
+      </div>
+      <div class="form-field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="How can we help you?" aria-describedby="message-error" required></textarea>
+        <p class="field-error" id="message-error"></p>
+      </div>
+      <button class="btn" type="submit">Send Message</button>
+      <p class="form-status" id="form-status" role="status" hidden></p>
+      <p class="form-note">Front-end demonstration only: this form checks your input but does not send email. To deliver messages to a real inbox you need a backend or an email service (for example Formspree, EmailJS or a server script).</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">Visit Salone</div>
+    <div class="footer-tagline">Explore Sierra Leone &middot; Nature &middot; Culture &middot; Adventure</div>
+    <div class="footer-copy">&copy; 2026 Visit Salone</div>
+  </div>
+</footer>
+</body>
+</html>
