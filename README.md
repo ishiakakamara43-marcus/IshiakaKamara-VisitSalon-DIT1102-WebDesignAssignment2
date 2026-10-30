@@ -59,7 +59,8 @@ The `screenshots/` folder contains source-code screenshots of the two supplied H
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. 
+Copyright (c) 2026 ishiakakamara43-marcus
 
 ---
 
