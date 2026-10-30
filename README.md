@@ -10,6 +10,7 @@ Built using HTML5, CSS3, and JavaScript, VISITSALONE focuses on creating an attr
 **Technologies:** HTML5 | CSS3 | JavaScript
 
 This's My Website Wireframe:
+
 <img width="629" height="435" alt="image" src="https://github.com/user-attachments/assets/56b6f90c-14fe-4c87-8297-7b1ec305917d" />
 <img width="620" height="440" alt="image" src="https://github.com/user-attachments/assets/8273649d-4bc7-4e05-babf-73a978d58f88" />
 <img width="620" height="441" alt="image" src="https://github.com/user-attachments/assets/df20a026-26da-4954-9ca5-940c9e502a88" />
@@ -17,6 +18,7 @@ This's My Website Wireframe:
 <img width="619" height="443" alt="image" src="https://github.com/user-attachments/assets/7d29378a-ff8e-40d6-9971-2f5bf5671fd5" />
 
 My Actual Design:
+
 <img width="2630" height="1235" alt="image" src="https://github.com/user-attachments/assets/36098c33-d6fa-4f85-9695-8555aab645ef" />
 <img width="2366" height="1236" alt="image" src="https://github.com/user-attachments/assets/241b2fd7-37b5-4f43-9b01-0eef50210187" />
 <img width="2172" height="1238" alt="image" src="https://github.com/user-attachments/assets/51d3b054-e051-4a3d-8290-b6194b82cd08" />
